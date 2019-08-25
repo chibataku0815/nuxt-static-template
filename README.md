@@ -4,7 +4,7 @@
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
@@ -17,6 +17,12 @@ $ yarn start
 
 # generate static project
 $ yarn generate
+
+# Formatting
+yarn global add prettier
+$ prettier --write ./dist/** ./dist/**/**
+ or
+$ prettier --write ./dist/** ./dist/css/**
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
